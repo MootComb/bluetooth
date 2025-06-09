@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 pkg update && pkg upgrade
-pkg install python git
-pkg install python-pip
-pip install flask flask-cors pydbus
+pkg install -y python git
+pkg install -y python-pip
+pip install -y flask flask-cors pydbus
 python backand.py
