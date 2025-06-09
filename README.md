@@ -1,1 +1,1 @@
-git clone https://github.com/MootComb/bluetooth.git
+curl -fsSL https://raw.githubusercontent.com/MootComb/bluetooth/refs/heads/main/start.sh | bash
